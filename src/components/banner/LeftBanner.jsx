@@ -40,17 +40,24 @@ const LeftBanner = () => {
           that every project I work on is both innovative and user-friendly.
         </p>
       </div>
-      <div className="flex flex-row sm:flex-col  gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-row sm:flex-col  gap-6 lg:flex-row justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaLinkedin />
+              <a
+                href="https://www.linkedin.com/in/deepakdas2d/"
+                target="_blank"
+              >
+                <FaLinkedin />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaGithub />
+              <a href="https://github.com/DeepakDas2d" target="_blank">
+                <FaGithub />
+              </a>
             </span>
           </div>
         </div>
