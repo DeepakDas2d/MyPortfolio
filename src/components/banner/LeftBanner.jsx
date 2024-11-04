@@ -40,7 +40,7 @@ const LeftBanner = () => {
           that every project I work on is both innovative and user-friendly.
         </p>
       </div>
-      <div className="flex flex-row sm:flex-col  gap-6 lg:flex-row justify-between">
+      <div className="flex flex-col lg:flex-row gap-6 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
