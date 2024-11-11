@@ -1,8 +1,9 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedin, FaGithub, FaReact } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaReact, FaDownload } from "react-icons/fa";
 import { SiJavascript, SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import Resume from "../../assets/DeepakDas_CV.pdf";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -60,6 +61,16 @@ const LeftBanner = () => {
               </a>
             </span>
           </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <h2 className="text-base uppercase font-titleFont mb-4">
+            Download Resume
+          </h2>
+          <span className="resumeIcon">
+            <a href={Resume} target="_blank" download>
+              <FaDownload />
+            </a>
+          </span>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">

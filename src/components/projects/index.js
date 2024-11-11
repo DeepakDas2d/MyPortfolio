@@ -7,24 +7,24 @@ export const projectData = [
     projectImg: textUtilsImg,
     projectTitle: "Text Editor App",
     projectDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, eius.",
-    githubLink: "",
-    liveLink: "",
+      "React Text Editor is a simple, intuitive editor offering features like text formatting, case conversion, downloading, copying, clearing text, removing extra spaces, and converting text to speech. Built with React for easy use.",
+    githubLink: "https://github.com/DeepakDas2d/utils-text-editor-react-app",
+    liveLink: "https://utils-text-editor.netlify.app/",
   },
   {
     projectImg: educational,
     projectTitle: "University Website",
     projectDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, eius.",
-    githubLink: "",
-    liveLink: "",
+      "A React-based web app with a responsive UI, using Tailwind CSS for modern styling. It delivers a seamless experience across devices, showcasing how React, Vite, and Tailwind can create functional, visually appealing interfaces..",
+    githubLink: "https://github.com/DeepakDas2d/CollegeWala-React-App",
+    liveLink: "https://collegewala.netlify.app/",
   },
   {
     projectImg: project3,
-    projectTitle: "E-COMMERCE",
+    projectTitle: "NewsApp",
     projectDesc:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, eius.",
-    githubLink: "",
-    liveLink: "",
+      "A ReactJS application that fetches and displays today's news from various sources using the NewsAPI. This app includes features like top headlines, different news categories, infinite scroll, and a top loading bar.",
+    githubLink: "https://github.com/DeepakDas2d/newsapp-react",
+    liveLink: "#",
   },
 ];
