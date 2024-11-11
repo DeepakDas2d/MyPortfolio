@@ -62,7 +62,7 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col lg:items-center">
           <h2 className="text-base uppercase font-titleFont mb-4">
             Download Resume
           </h2>

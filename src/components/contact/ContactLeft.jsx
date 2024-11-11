@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { contactImg } from "../../assets";
 import { FaLinkedin, FaGithub, FaCopy } from "react-icons/fa";
-import { MdEmail, MdCall } from "react-icons/md";
+// import { MdEmail, MdCall } from "react-icons/md";
 
 const ContactLeft = () => {
   const [copiedPhone, setCopiedPhone] = useState(false);
@@ -29,10 +29,9 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Deepak Das</h3>
         <p className="text-lg font-normal text-gray-400">Frontend Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, omnis!
+          New Delhi, India
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          <MdCall />
           <span className="text-lightText lg:text-xl sm:text-xs">
             +917042917613
           </span>
@@ -48,7 +47,6 @@ const ContactLeft = () => {
           </button>
         </p>
         <p className="text-base text-gray-400 flex items-center  gap-2">
-          <MdEmail />
           <span className="text-lightText lg:text-xl sm:text-xs">
             contacttodeepakdas@gmail.com
           </span>
