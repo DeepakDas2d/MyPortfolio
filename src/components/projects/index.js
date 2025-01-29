@@ -1,6 +1,7 @@
 import textUtilsImg from "../../assets/images/projects/textUtils.png";
 import educational from "../../assets/images/projects/educational.png";
 import project3 from "../../assets/images/projects/projectTwo.jpg";
+import chatbot from "../../assets/images/projects/chatbot.png";
 
 export const projectData = [
   {
@@ -26,5 +27,13 @@ export const projectData = [
       "A ReactJS application that fetches and displays today's news from various sources using the NewsAPI. This app includes features like top headlines, different news categories, infinite scroll, and a top loading bar.",
     githubLink: "https://github.com/DeepakDas2d/newsapp-react",
     liveLink: "#",
+  },
+  {
+    projectImg: chatbot,
+    projectTitle: "Chatbot React",
+    projectDesc:
+      "An AI Chatbot using React JS and CSS. You can ask the chatbot any question and receive instant answers. It is powered by Gemini AI, allowing it to respond dynamically to your inquiries. Additionally, you can use this chatbot on your phone.",
+    githubLink: "https://github.com/DeepakDas2d/chatbot-react",
+    liveLink: "https://chatbot-react-taupe.vercel.app/",
   },
 ];
